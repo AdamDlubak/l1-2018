@@ -1,5 +1,13 @@
 #!/bin/bash
 
+if [ "$1" == "-h" ]; then
+    printf "\n\t-----------------------------\n"
+    printf "\nNapisz skrypt, który sprawdzi bieżącą datę i godzinę i jeśli wypada ona w czasie zajęć laboratoryjnych wyświetli napis 'Witaj na zajęciach'\n\n"
+    printf "\t-----------------------------\n\n"    
+    exit 0
+fi
+
+
 current_date="`date +%d.%m.%Y`";
 current_time="`date +%H:%M`";
 current_day="`date +%a`";
