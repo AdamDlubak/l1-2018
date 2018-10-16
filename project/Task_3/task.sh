@@ -3,7 +3,7 @@
 if [ "$1" == "-h" ]; then
     printf "\n\t-----------------------------\n"
 	printf "\nUtwórz plik z min 6 tekstami powitalnymi i zapisz je do pliku (każde powitanie w osobnej linii). Napisz skrypt, który będzie wyświetlał losowe powitanie z pliku (zrób 2 wersje, jedna z wykorzystaniem: head, tail, bc, expr, druga: shuf)\n\n"
-    printf "\t#1 Parameter: Name of file with list of greetings. \n\t\tE.g. task_3_hello_texts.txt\n"
+    printf "\t#1 Parameter: Name of file with list of greetings. \n\t\tE.g. data.txt\n"
     printf "\t-----------------------------\n\n"    
     exit 0
 fi

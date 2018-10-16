@@ -4,7 +4,7 @@ if [ "$1" == "-h" ]; then
     printf "\n\t-----------------------------\n"
 	printf "\nUtwórz plik z nazwami katalogów. Napisz skrypt, który będzie przyjmował w wywołaniu linii poleceń nazwę tego pliku oraz wartość liczbową i tworzył katalogi o nazwach z pliku oraz dla każdego katalogu podkatalogi w liczbie określonej przez wartość liczbową o nazwie losowej.\n\n"
     
-    printf "\t#1 Parameter: Name of file with list of folder names. \n\t\tE.g. task_4_folder_names.txt\n"
+    printf "\t#1 Parameter: Name of file with list of folder names. \n\t\tE.g. data.txt\n"
     printf "\t#2 Parameter: Intiger numer - number of subfolders with random names in created folders. \n\t\tE.g. 3\n"
     printf "\t-----------------------------\n\n"    
     exit 0
