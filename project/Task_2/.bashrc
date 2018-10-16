@@ -116,4 +116,4 @@ if ! shopt -oq posix; then
   fi
 fi
 
-~/../../project/Task_1/task_1.sh
+~/../../project/Task_1/task.sh
