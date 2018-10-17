@@ -35,8 +35,9 @@ if ! [[ $1 =~ $number_regex ]] ; then
         exit 1
 fi
 
+environment_variables=$(printenv)
 mail -s "Message from WCSS Server" echo $2  <<EOF
 Hello in my world!
 $1
-$(echo printenv)
+$environment_variables
 EOF
